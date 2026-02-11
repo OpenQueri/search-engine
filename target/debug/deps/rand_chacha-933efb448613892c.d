@@ -1,0 +1,9 @@
+/home/kiril/OpenQueri/search-engine/target/debug/deps/rand_chacha-933efb448613892c.d: /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_chacha-0.3.1/src/lib.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_chacha-0.3.1/src/chacha.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_chacha-0.3.1/src/guts.rs
+
+/home/kiril/OpenQueri/search-engine/target/debug/deps/librand_chacha-933efb448613892c.rlib: /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_chacha-0.3.1/src/lib.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_chacha-0.3.1/src/chacha.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_chacha-0.3.1/src/guts.rs
+
+/home/kiril/OpenQueri/search-engine/target/debug/deps/librand_chacha-933efb448613892c.rmeta: /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_chacha-0.3.1/src/lib.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_chacha-0.3.1/src/chacha.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_chacha-0.3.1/src/guts.rs
+
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_chacha-0.3.1/src/lib.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_chacha-0.3.1/src/chacha.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_chacha-0.3.1/src/guts.rs:

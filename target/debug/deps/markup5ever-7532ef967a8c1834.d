@@ -1,0 +1,15 @@
+/home/kiril/OpenQueri/search-engine/target/debug/deps/markup5ever-7532ef967a8c1834.d: /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/lib.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/data/mod.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/interface/mod.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/interface/tree_builder.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/serialize.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/util/buffer_queue.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/util/smallcharset.rs /home/kiril/OpenQueri/search-engine/target/debug/build/markup5ever-b95ab53bf6683f35/out/generated.rs /home/kiril/OpenQueri/search-engine/target/debug/build/markup5ever-b95ab53bf6683f35/out/named_entities.rs
+
+/home/kiril/OpenQueri/search-engine/target/debug/deps/libmarkup5ever-7532ef967a8c1834.rmeta: /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/lib.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/data/mod.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/interface/mod.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/interface/tree_builder.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/serialize.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/util/buffer_queue.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/util/smallcharset.rs /home/kiril/OpenQueri/search-engine/target/debug/build/markup5ever-b95ab53bf6683f35/out/generated.rs /home/kiril/OpenQueri/search-engine/target/debug/build/markup5ever-b95ab53bf6683f35/out/named_entities.rs
+
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/lib.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/data/mod.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/interface/mod.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/interface/tree_builder.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/serialize.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/util/buffer_queue.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.11.0/util/smallcharset.rs:
+/home/kiril/OpenQueri/search-engine/target/debug/build/markup5ever-b95ab53bf6683f35/out/generated.rs:
+/home/kiril/OpenQueri/search-engine/target/debug/build/markup5ever-b95ab53bf6683f35/out/named_entities.rs:
+
+# env-dep:OUT_DIR=/home/kiril/OpenQueri/search-engine/target/debug/build/markup5ever-b95ab53bf6683f35/out

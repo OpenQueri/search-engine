@@ -1,0 +1,1 @@
+_: FromIterator<impl futures::Future<Output = Result<SiteWords, Box<(dyn std::error::Error + 'static)>>>>
