@@ -1,0 +1,12 @@
+/home/kiril/OpenQueri/search-engine/target/debug/deps/fs4-e388c8d7deb62e3f.d: /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/lib.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/unix.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/unix/sync_impl.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/file_ext.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/fs_stats.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/unix/sync_impl/std_impl.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/file_ext/sync_impl.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/file_ext/sync_impl/std_impl.rs
+
+/home/kiril/OpenQueri/search-engine/target/debug/deps/libfs4-e388c8d7deb62e3f.rmeta: /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/lib.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/unix.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/unix/sync_impl.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/file_ext.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/fs_stats.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/unix/sync_impl/std_impl.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/file_ext/sync_impl.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/file_ext/sync_impl/std_impl.rs
+
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/lib.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/unix.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/unix/sync_impl.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/file_ext.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/fs_stats.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/unix/sync_impl/std_impl.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/file_ext/sync_impl.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fs4-0.13.1/src/file_ext/sync_impl/std_impl.rs:

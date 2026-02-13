@@ -1,0 +1,12 @@
+/home/kiril/OpenQueri/search-engine/target/debug/deps/lz4_flex-1e35c0f9f796cf20.d: /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/lib.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/block/mod.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/block/compress.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/block/hashtable.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/block/decompress.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/fastcpy.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/fastcpy_unsafe.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/sink.rs
+
+/home/kiril/OpenQueri/search-engine/target/debug/deps/liblz4_flex-1e35c0f9f796cf20.rmeta: /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/lib.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/block/mod.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/block/compress.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/block/hashtable.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/block/decompress.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/fastcpy.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/fastcpy_unsafe.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/sink.rs
+
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/lib.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/block/mod.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/block/compress.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/block/hashtable.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/block/decompress.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/fastcpy.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/fastcpy_unsafe.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lz4_flex-0.11.5/src/sink.rs:

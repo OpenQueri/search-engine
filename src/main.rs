@@ -1,7 +1,7 @@
 use std::error::Error;
 
 pub mod parsing;
-
+pub mod tantivy;
 
 use crate::parsing::parse::main_parse;
 

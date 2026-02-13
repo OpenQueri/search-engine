@@ -1,0 +1,10 @@
+/home/kiril/OpenQueri/search-engine/target/debug/deps/levenshtein_automata-9da0c16684390b68.d: /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/levenshtein_automata-0.2.1/src/lib.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/levenshtein_automata-0.2.1/src/alphabet.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/levenshtein_automata-0.2.1/src/dfa.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/levenshtein_automata-0.2.1/src/index.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/levenshtein_automata-0.2.1/src/levenshtein_nfa.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/levenshtein_automata-0.2.1/src/parametric_dfa.rs
+
+/home/kiril/OpenQueri/search-engine/target/debug/deps/liblevenshtein_automata-9da0c16684390b68.rmeta: /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/levenshtein_automata-0.2.1/src/lib.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/levenshtein_automata-0.2.1/src/alphabet.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/levenshtein_automata-0.2.1/src/dfa.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/levenshtein_automata-0.2.1/src/index.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/levenshtein_automata-0.2.1/src/levenshtein_nfa.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/levenshtein_automata-0.2.1/src/parametric_dfa.rs
+
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/levenshtein_automata-0.2.1/src/lib.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/levenshtein_automata-0.2.1/src/alphabet.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/levenshtein_automata-0.2.1/src/dfa.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/levenshtein_automata-0.2.1/src/index.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/levenshtein_automata-0.2.1/src/levenshtein_nfa.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/levenshtein_automata-0.2.1/src/parametric_dfa.rs:

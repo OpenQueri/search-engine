@@ -1,0 +1,18 @@
+/home/kiril/OpenQueri/search-engine/target/debug/deps/selectors-bf2eb94f7dc24183.d: /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/lib.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/attr.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/bloom.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/builder.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/context.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/matching.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/nth_index_cache.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/parser.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/sink.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/tree.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/visitor.rs /home/kiril/OpenQueri/search-engine/target/debug/build/selectors-82104877a14f5f57/out/ascii_case_insensitive_html_attributes.rs
+
+/home/kiril/OpenQueri/search-engine/target/debug/deps/libselectors-bf2eb94f7dc24183.rmeta: /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/lib.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/attr.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/bloom.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/builder.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/context.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/matching.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/nth_index_cache.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/parser.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/sink.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/tree.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/visitor.rs /home/kiril/OpenQueri/search-engine/target/debug/build/selectors-82104877a14f5f57/out/ascii_case_insensitive_html_attributes.rs
+
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/lib.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/attr.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/bloom.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/builder.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/context.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/matching.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/nth_index_cache.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/parser.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/sink.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/tree.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/selectors-0.22.0/visitor.rs:
+/home/kiril/OpenQueri/search-engine/target/debug/build/selectors-82104877a14f5f57/out/ascii_case_insensitive_html_attributes.rs:
+
+# env-dep:OUT_DIR=/home/kiril/OpenQueri/search-engine/target/debug/build/selectors-82104877a14f5f57/out
