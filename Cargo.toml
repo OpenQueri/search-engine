@@ -4,10 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-tokio = { version = "1", features = ["full"] }
-reqwest = { version = "0.11", features = ["json"] }
-scraper = "0.14"
+tokio = { version = "1.51.1", features = ["full"] }
+reqwest = { version = "0.13.2", features = ["json"] }
+scraper = "0.26.0"
 regex = "1.12.3"
-once_cell = "1.21.3"
-futures = "0.3"
-tantivy = "0.25.0"
+once_cell = "1.21.4"
+futures = "0.3.32"
+robotparser = "0.11"
