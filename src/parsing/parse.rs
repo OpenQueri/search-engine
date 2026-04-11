@@ -1,100 +1,112 @@
-
 use scraper::{Html, Selector};
-use regex::Regex;
-use std::{collections::HashMap};
-use once_cell::sync::Lazy;
 use std::error::Error;
+
 #[derive(Debug)]
-pub struct SiteWords{
-    pub url: String,
-    pub words: Option<Vec<(String, usize)>>,
-    pub error: Option<String>,
+enum TraversalResult {
+    Successfully,
+    ThisSiteCannotScraper    
 }
 
+#[derive(Debug)]
+pub struct DataSite {
+    title: String,
+    url: Vec<String>,
+    img: Vec<String>,
+    meta: Vec<String>,
+    text: Vec<String>,
+    traversal_result: TraversalResult
+}
 
-static WORD_REGEX: Lazy<Option<Regex>> = Lazy::new(|| {
-    Regex::new(r"\p{L}+").ok()
-});
+impl DataSite {
+    fn new() -> Self {
+        Self { 
+            title: String::new(),
+            url: Vec::new(),
+            img: Vec::new(),
+            meta: Vec::new(),
+            text: Vec::new(),
+            traversal_result: TraversalResult::Successfully,
+        }
+    }
+    
+    // Setters for collected data
+    fn add_title(&mut self, title: String) { self.title = title; }
+    fn add_url(&mut self, url: String) { self.url.push(url); }
+    fn add_img(&mut self, img: String) { self.img.push(img); }
+    fn add_meta(&mut self, meta: String) { self.meta.push(meta); }
+    fn add_text(&mut self, text: String) { self.text.push(text); }
+    
+    // Update status if scraping is restricted
+    fn cannot_scraper(&mut self) {
+        self.traversal_result = TraversalResult::ThisSiteCannotScraper;
+    }
+}
 
-pub async fn main_parse(site_vec: &[&str]) -> Result< Vec<SiteWords> ,Box<dyn Error>>{
+pub async fn parsing(link: &str) -> Result<Option<DataSite>, Box<dyn Error>> {
+    // Fetch HTML body from the provided link
+    let body = reqwest::get(link).await?.text().await?;
 
+    // Parse document and define selectors for search engine indexing
+    let document = Html::parse_document(&body);
+    let text_selector = Selector::parse("title, h1, h2, h3, h4, h5, h6, p, img, meta, a")?;
 
-    let tasks: Vec<_> = site_vec
-    .iter()
-    .map(|url| {
-            let url = url.to_string();
-            async move {
-                match parsing(&url).await {
-                    Ok(mut site) => {
-                        site.url = url;
-                        site
-                    },
-                    Err(e) => SiteWords {
-                        url,
-                        words: None,
-                        error: Some(e.to_string()),
+    let mut result = DataSite::new();
+
+    // Iterate through all matched elements
+    for element in document.select(&text_selector) {
+        let tag_element = element.value().name();
+
+        match tag_element {
+            "title" => {
+                // Extract main page title
+                let title_text = element.text().collect::<Vec<_>>().join("");
+                if !title_text.is_empty() {
+                    result.add_title(title_text.trim().to_string());
+                }
+            }
+            "a" => {
+                // Extract links for crawler queue
+                let attrs = element.value();
+                if let Some(url) = attrs.attr("href") {
+                    let rel = attrs.attr("rel").unwrap_or("");
+                    
+                    // Filter out empty links, anchors and nofollow attributes
+                    if !url.is_empty() && !url.starts_with('#') && !rel.contains("nofollow") {
+                        result.add_url(url.to_string());
                     }
                 }
             }
-        })
-        .collect();
+            "img" => {
+                // Collect image sources
+                if let Some(src) = element.value().attr("src") {
+                    result.add_img(src.to_string());
+                }
+            }
+            "meta" => {
+                // Check robots meta tags for crawling permissions
+                let name = element.value().attr("name").unwrap_or("");
+                let content = element.value().attr("content").unwrap_or("");
 
-    let results = futures::future::join_all(tasks).await;
-
-    Ok(results)
-}
-
-async fn parsing(link: &str) -> Result<SiteWords, Box<dyn Error>>{
-
-    let body = reqwest::get(link).await?.text().await?;
-
-    let document = Html::parse_document(&body);
-    let selector = Selector::parse("h1, h2, h3, p")?;
-    
-    let mut text_fragments = Vec::new();
-
-    for element in document.select(&selector){
-        for text_piece in element.text(){
-            text_fragments.push(text_piece);
+                if name == "robots" && content.contains("nofollow") {
+                    result.cannot_scraper();
+                    return Ok(Some(result)); // Stop parsing if forbidden
+                }
+                
+                // Collect other metadata
+                if let Some(meta_val) = element.value().attr("content") {
+                    result.add_meta(meta_val.to_string());
+                }
+            }
+            _ => {
+                // Collect clean text from headings and paragraphs
+                let text = element.text().collect::<Vec<_>>().join("");
+                let trimmed = text.trim();
+                if !trimmed.is_empty() {
+                    result.add_text(trimmed.to_string());
+                }
+            }
         }
     }
 
-    match extract_words(&text_fragments).await {
-        Ok(words) => { 
-            Ok(SiteWords{
-                    url: link.to_string(),
-                    words: Some(words),
-                    error: None
-                })
-        },
-        Err(e) => {
-            eprintln!("Error {}", e);
-            Ok(SiteWords{
-                        url: link.to_string(),
-                        words: None,
-                        error: Some(format!("{}", e)),
-                    })
-            },
-    }
-
-
-}
-
-async fn extract_words(text_fragments: &[&str]) -> Result<Vec<(String, usize)>, Box<dyn Error>>
-{
-    let regex = match WORD_REGEX.as_ref() {
-        Some(re) => re,
-        None => return Err("WORD_REGEX no compile".into())
-    };
-    let mut words: HashMap<String, usize> = HashMap::new();
-
-    for &fragment in text_fragments {
-        regex
-            .find_iter(fragment)
-            .map(|mat: regex::Match<'_>| mat.as_str().to_lowercase())
-            .for_each(|word| {
-                *words.entry(word).or_insert(0) += 1;
-            });
-    }    
-    Ok(words.into_iter().collect())
+    Ok(Some(result))
 }
