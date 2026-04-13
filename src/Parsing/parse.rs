@@ -2,19 +2,19 @@ use scraper::{Html, Selector};
 use std::error::Error;
 
 #[derive(Debug)]
-enum TraversalResult {
+pub enum TraversalResult {
     Successfully,
     ThisSiteCannotScraper    
 }
 
 #[derive(Debug)]
 pub struct DataSite {
-    title: String,
-    url: Vec<String>,
-    img: Vec<String>,
-    meta: Vec<String>,
-    text: Vec<String>,
-    traversal_result: TraversalResult
+    pub title: String,
+    pub url: Vec<String>,
+    pub img: Vec<String>,
+    pub meta: Vec<String>,
+    pub text: Vec<String>,
+    pub traversal_result: TraversalResult
 }
 
 impl DataSite {
@@ -34,7 +34,15 @@ impl DataSite {
     fn add_url(&mut self, url: String) { self.url.push(url); }
     fn add_img(&mut self, img: String) { self.img.push(img); }
     fn add_meta(&mut self, meta: String) { self.meta.push(meta); }
-    fn add_text(&mut self, text: String) { self.text.push(text); }
+    fn add_text(&mut self, text: String) { 
+
+        let clean_text: String = text
+        .split_whitespace()     
+        .collect::<Vec<_>>()     
+        .join(" ");
+
+        self.text.push(clean_text);
+     }
     
     // Update status if scraping is restricted
     fn cannot_scraper(&mut self) {
