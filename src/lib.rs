@@ -19,10 +19,9 @@ pub struct DataSiteResponse {
 }
 
 
-pub async fn link_scrap(link: &str) -> Result<Vec<DataSiteResponse>, Box<dyn Error>>{
+pub async fn link_scrap(link: &String,depth_limit: u32) -> Result<Vec<DataSiteResponse>, Box<dyn Error>>{
 
     let mut queue = VecDeque::new();
-    let depth_limit = 2;
 
     let mut response_result: Vec<DataSiteResponse> = Vec::new();
 
@@ -39,8 +38,6 @@ pub async fn link_scrap(link: &str) -> Result<Vec<DataSiteResponse>, Box<dyn Err
 
         match result {
             Ok(Some(res)) => {
-                println!("Scraped (depth {}): {:?}", current_depth, res.url);
-
                 response_result.push(DataSiteResponse { 
                      title: res.title,
                      img: res.img,
@@ -61,7 +58,7 @@ pub async fn link_scrap(link: &str) -> Result<Vec<DataSiteResponse>, Box<dyn Err
 }
 
 
-pub async fn scrap(link: &str, depth: &mut i32) -> Result<Option<DataSite>, Box<dyn Error>>{
+pub async fn scrap(link: &str, depth: &mut u32) -> Result<Option<DataSite>, Box<dyn Error>>{
     *depth += 1;
 
     if check_link(&link).await? == true{
