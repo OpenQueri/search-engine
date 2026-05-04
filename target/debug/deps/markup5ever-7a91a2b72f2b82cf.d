@@ -1,0 +1,10 @@
+/home/kiril/OpenQueri/crawler-engine/target/debug/deps/markup5ever-7a91a2b72f2b82cf.d: /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.39.0/lib.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.39.0/interface/mod.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.39.0/interface/tree_builder.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.39.0/serialize.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.39.0/util/buffer_queue.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.39.0/util/smallcharset.rs
+
+/home/kiril/OpenQueri/crawler-engine/target/debug/deps/libmarkup5ever-7a91a2b72f2b82cf.rmeta: /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.39.0/lib.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.39.0/interface/mod.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.39.0/interface/tree_builder.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.39.0/serialize.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.39.0/util/buffer_queue.rs /home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.39.0/util/smallcharset.rs
+
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.39.0/lib.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.39.0/interface/mod.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.39.0/interface/tree_builder.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.39.0/serialize.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.39.0/util/buffer_queue.rs:
+/home/kiril/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.39.0/util/smallcharset.rs:

@@ -1,1 +1,0 @@
-/home/kiril/OpenQueri/search-engine/target/debug/search-engine: /home/kiril/OpenQueri/search-engine/src/main.rs /home/kiril/OpenQueri/search-engine/src/parsing/mod.rs /home/kiril/OpenQueri/search-engine/src/parsing/parse.rs
