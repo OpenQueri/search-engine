@@ -12,14 +12,15 @@ use std::collections::VecDeque;
 
 #[derive(Debug)]
 pub struct DataSiteResponse {
+    pub link: String,
     pub title: String,
-    pub img: Vec<String>,
+    pub image: Vec<String>,
     pub meta: Vec<String>,
     pub text: Vec<String>,
 }
 
 
-pub async fn link_scrap(link: &String,depth_limit: u32) -> Result<Vec<DataSiteResponse>, Box<dyn Error>>{
+pub async fn link_scrap(link: &String, depth_limit: u32) -> Result<Vec<DataSiteResponse>, Box<dyn Error + Send + Sync>>{
 
     let mut queue = VecDeque::new();
 
@@ -39,10 +40,11 @@ pub async fn link_scrap(link: &String,depth_limit: u32) -> Result<Vec<DataSiteRe
         match result {
             Ok(Some(res)) => {
                 response_result.push(DataSiteResponse { 
-                     title: res.title,
-                     img: res.img,
-                     meta: res.meta,
-                     text: res.text 
+                    link: link.to_string(),
+                    title: res.title,
+                    image: res.img,
+                    meta: res.meta,
+                    text: res.text 
                 });
 
 
@@ -58,7 +60,7 @@ pub async fn link_scrap(link: &String,depth_limit: u32) -> Result<Vec<DataSiteRe
 }
 
 
-pub async fn scrap(link: &str, depth: &mut u32) -> Result<Option<DataSite>, Box<dyn Error>>{
+pub async fn scrap(link: &str, depth: &mut u32) -> Result<Option<DataSite>, Box<dyn Error + Send + Sync>>{
     *depth += 1;
 
     if check_link(&link).await? == true{
